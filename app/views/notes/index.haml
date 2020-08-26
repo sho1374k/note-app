@@ -1,0 +1,14 @@
+トップページ
+.link
+  = link_to "新規投稿", new_note_path 
+
+- @note.each do |note|
+  .note
+    .note-date
+      投稿日時 : #{note.created_at}
+    .note-content
+      = note.content
+    .delete
+      = link_to "削除", note_path(note.id), method: :delete
+    .edit
+      = link_to "変更", edit_note_path(note.id)

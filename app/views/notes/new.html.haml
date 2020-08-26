@@ -1,0 +1,5 @@
+新規投稿ページ
+= link_to "ホーム", root_path 
+= form_for @notes do |f|
+  = f.text_field :content
+  = f.submit '投稿する',class: 'send'
