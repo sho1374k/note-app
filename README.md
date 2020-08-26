@@ -205,7 +205,9 @@ ex)
   = f.text_field :content
   = f.submit '投稿する',class: 'send'
 ```
-
 ## 簡易gif
 機能理解のためCSSは必要最低限の実装
 ![画面収録 2020-08-26 13 54 07 mov](https://user-images.githubusercontent.com/61724976/91256993-c2aca000-e7a3-11ea-90a1-c6d53f2c9013.gif)
+
+## 開発環境
+- Ruby / Ruby on Rails / GitHub / VSCode / MySQL
