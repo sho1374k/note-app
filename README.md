@@ -211,3 +211,9 @@ ex)
 
 ## 開発環境
 - Ruby / Ruby on Rails / GitHub / VSCode / MySQL
+
+## データベース
+## notesテーブル
+|Column|Type|Options|
+|------|----|-------|
+|content|text|
